@@ -37,7 +37,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Eric Zimmerman</authors>
 
     <projectUrl>https://binaryforay.blogspot.com/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/EricZimmerman/AppCompatCacheParser/master/AppCompatCacheParser/Query256.ico</iconUrl>
+    <iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/appcompatcacheparser/appcompatcacheparserIcon.png</iconUrl>
     <copyright>2016 Eric R. Zimmerman</copyright>
 
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
