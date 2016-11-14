@@ -34,18 +34,18 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>AppCompatCache parser</title>
-    <authors>Eric Zimmerman saericzimmerman@gmail.com</authors>
+    <authors>Eric Zimmerman</authors>
 
     <projectUrl>https://binaryforay.blogspot.com/</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/ericzimmermantools.png</iconUrl>-->
+    <iconUrl>https://raw.githubusercontent.com/EricZimmerman/AppCompatCacheParser/master/AppCompatCacheParser/Query256.ico</iconUrl>
     <copyright>2016 Eric R. Zimmerman</copyright>
 
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <releaseNotes>https://github.com/EricZimmerman/AppCompatCacheParser/releases</releaseNotes>
 
     <projectSourceUrl>https://github.com/EricZimmerman/AppCompatCacheParser</projectSourceUrl>
     <docsUrl>https://binaryforay.blogspot.com/</docsUrl>
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
+
     <tags>registry appcompatcache shimcache execution</tags>
     <summary>AppCompatCache aka shimcache parser</summary>
     <description>AppCompatCache parser used to show evidence of execution</description>

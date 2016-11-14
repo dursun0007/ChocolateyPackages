@@ -34,18 +34,18 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>Amcache parser</title>
-    <authors>Eric Zimmerman saericzimmerman@gmail.com</authors>
+    <authors>Eric Zimmerman</authors>
 
     <projectUrl>https://binaryforay.blogspot.com/</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/ericzimmermantools.png</iconUrl>-->
+    <iconUrl>https://raw.githubusercontent.com/EricZimmerman/AmcacheParser/master/AmcacheParser/Custom-Icon-Design-Flatastic-2-Process-info.ico</iconUrl>
     <copyright>2016 Eric R. Zimmerman</copyright>
 
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <releaseNotes>https://github.com/EricZimmerman/AmcacheParser/releases</releaseNotes>
 
     <projectSourceUrl>https://github.com/EricZimmerman/AmcacheParser</projectSourceUrl>
     <docsUrl>https://binaryforay.blogspot.com/</docsUrl>
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
+
     <tags>registry amcache execution</tags>
     <summary>Amcache.hve parser</summary>
     <description>Amcache parser with advanced features such as whitelisting, data reduction, and various export formats</description>
