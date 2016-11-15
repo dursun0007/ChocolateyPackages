@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    
+    <id>hericzimmermantools</id>
+    
+    <version>1.0.0.0</version>
+    <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>Eric R. Zimmerman</owners>
+    
+    <title>Eric Zimmerman's tools</title>
+    <authors>Eric Zimmerman</authors>
+
+    <projectUrl>https://binaryforay.blogspot.com/</projectUrl>
+   	<iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/ericzimmermantools/ericzimmermantoolsIcon.png</iconUrl>
+    <copyright>2016 Eric R. Zimmerman</copyright>
+
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <releaseNotes>https://binaryforay.blogspot.com/</releaseNotes>
+
+    <docsUrl>https://binaryforay.blogspot.com/</docsUrl>
+
+    <tags>eric zimmerman forensics tools</tags>
+    <summary>A single package that installs all my forensic tools</summary>
+    <description>Installs tools for lnk files, jump lists, Registry hives, hashing, and much more</description>
+   </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="bin\**" target="bin" />
+    
+  </files>
+</package>
