@@ -15,11 +15,11 @@
     <authors>Eric Zimmerman</authors>
 
     <projectUrl>https://binaryforay.blogspot.com/</projectUrl>
-	<iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/jumplistexplorer/jumplistexplorerIcon.png</iconUrl>
+    <iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/jumplistexplorer/jumplistexplorerIcon.png</iconUrl>
     <copyright>2016 Eric R. Zimmerman</copyright>
 
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-    <releaseNotes>hhttps://binaryforay.blogspot.com</releaseNotes>
+    <releaseNotes>https://binaryforay.blogspot.com</releaseNotes>
 
     <docsUrl>https://binaryforay.blogspot.com/</docsUrl>
 

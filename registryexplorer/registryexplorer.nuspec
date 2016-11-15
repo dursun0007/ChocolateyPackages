@@ -15,7 +15,7 @@
     <authors>Eric Zimmerman</authors>
 
     <projectUrl>https://binaryforay.blogspot.com/</projectUrl>
-	<iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/registryexplorer/registryexplorerIcon.png</iconUrl>
+    <iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/registryexplorer/registryexplorerIcon.png</iconUrl>
     <copyright>2016 Eric R. Zimmerman</copyright>
 
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
