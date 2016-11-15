@@ -1,0 +1,11 @@
+﻿
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+This is all my stuff. References
+
+https://github.com/ericzimmerman
+https://binaryforay.blogspot.com/
+https://gist.github.com/EricZimmerman/4288bc5e0ac188af2ca9
+https://www.sans.org/instructors/eric-zimmerman
