@@ -1,0 +1,267 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="AllowIncrementalSearch">true</property>
+    <property name="AllowDeleteRows">False</property>
+    <property name="Editable">false</property>
+    <property name="ReadOnly">true</property>
+  </property>
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="MultiSelectMode">CellSelect</property>
+    <property name="MultiSelect">true</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ShowAutoFilterRow">true</property>
+    <property name="EnableAppearanceOddRow">true</property>
+  </property>
+  <property name="OptionsMenu" isnull="true" iskey="true">
+    <property name="ShowConditionalFormattingItem">true</property>
+  </property>
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="RowHeight">-1</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ChildGridLevelName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="PreviewFieldName" />
+  <property name="GroupPanelText" />
+  <property name="NewItemRowText" />
+  <property name="LevelIndent">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="HorzScrollStep">0</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="Columns" iskey="true" value="17">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">colTimestamp</property>
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">110</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Name">colTimeZone</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Name">colMacb</property>
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="Width">45</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">colSourceName</property>
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">65</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">colSourceDescription</property>
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="Width">78</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Name">colType</property>
+      <property name="Width">138</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Name">colUsername</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">colHostName</property>
+      <property name="Width">84</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">colShortDescription</property>
+      <property name="Width">143</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">colLongDescription</property>
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="Width">1119</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Name">colVersion</property>
+      <property name="Width">143</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">colFileName</property>
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="Width">370</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Name">colInode</property>
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="Width">57</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Name">colNotes</property>
+      <property name="Width">143</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Name">colFormat</property>
+      <property name="Width">143</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Name">colExtra</property>
+      <property name="Width">169</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="Name">colLine</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">36</property>
+    </property>
+  </property>
+  <property name="ViewCaption" />
+  <property name="BorderStyle">Default</property>
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="Name">gridView1</property>
+  <property name="DetailHeight">350</property>
+  <property name="Tag" isnull="true" />
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString">[SourceDescription] &lt;&gt; 'WinEVTX'</property>
+  <property name="MRUFilters">~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFHcmlkLnYxNi4xLCBWZXJzaW9uPTE2LjEuNy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAADZEZXZFeHByZXNzLlh0cmFHcmlkLlZpZXdzLkJhc2UuTVJVVmlld0ZpbHRlckNvbGxlY3Rpb24BAAAAE0NvbGxlY3Rpb25CYXNlK2xpc3QDHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QCAAAACQMAAAAEAwAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24FAAAICAkEAAAACgAAABQAAAAQBAAAABAAAAAJBQAAAAkGAAAACQcAAAAJCAAAAAkJAAAACQoAAAAJCwAAAAkMAAAACQ0AAAAJDgAAAA0GDA8AAABZRGV2RXhwcmVzcy5EYXRhLnYxNi4xLCBWZXJzaW9uPTE2LjEuNy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFBQAAAClEZXZFeHByZXNzLlh0cmFHcmlkLlZpZXdzLkJhc2UuVmlld0ZpbHRlcgIAAAAYZk5vbkNvbHVtbkZpbHRlckNyaXRlcmlhE0NvbGxlY3Rpb25CYXNlK2xpc3QEAypEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QCAAAACgkQAAAAAQYAAAAFAAAACgkRAAAAAQcAAAAFAAAACgkSAAAAAQgAAAAFAAAACgkTAAAAAQkAAAAFAAAACgkUAAAAAQoAAAAFAAAACgkVAAAAAQsAAAAFAAAACgkWAAAAAQwAAAAFAAAACgkXAAAAAQ0AAAAFAAAACgkYAAAAAQ4AAAAFAAAACgkZAAAAARAAAAADAAAACRoAAAABAAAAAwAAAAERAAAAAwAAAAkbAAAAAQAAAAMAAAABEgAAAAMAAAAJHAAAAAEAAAADAAAAARMAAAADAAAACR0AAAABAAAAAwAAAAEUAAAAAwAAAAkeAAAAAQAAAAMAAAABFQAAAAMAAAAJHwAAAAEAAAADAAAAARYAAAADAAAACSAAAAABAAAAAwAAAAEXAAAAAwAAAAkhAAAAAQAAAAMAAAABGAAAAAMAAAAJIgAAAAEAAAADAAAAARkAAAADAAAACSMAAAABAAAAAwAAABAaAAAABAAAAAkkAAAADQMQGwAAAAQAAAAJJQAAAA0DEBwAAAAEAAAACSYAAAANAxAdAAAABAAAAAknAAAADQMQHgAAAAQAAAAJKAAAAA0DEB8AAAAEAAAACSkAAAANAxAgAAAABAAAAAkqAAAADQMQIQAAAAQAAAAJKwAAAA0DECIAAAAEAAAACSwAAAANAxAjAAAABAAAAAktAAAADQMMLgAAABlEZXZFeHByZXNzLlh0cmFHcmlkLnYxNi4xBSQAAAAzRGV2RXhwcmVzcy5YdHJhR3JpZC5WaWV3cy5CYXNlLlZpZXdDb2x1bW5GaWx0ZXJJbmZvAgAAAAZGaWx0ZXIGQ29sdW1uBAEsRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkNvbHVtbkZpbHRlckluZm8uAAAALgAAAAkvAAAABjAAAAAUY29sU291cmNlRGVzY3JpcHRpb24BJQAAACQAAAAJMQAAAAkwAAAAASYAAAAkAAAACTMAAAAJMAAAAAEnAAAAJAAAAAk1AAAABjYAAAANY29sU291cmNlTmFtZQEoAAAAJAAAAAk3AAAACTAAAAABKQAAACQAAAAJOQAAAAY6AAAAEmNvbExvbmdEZXNjcmlwdGlvbgEqAAAAJAAAAAk7AAAACToAAAABKwAAACQAAAAJPQAAAAk6AAAAASwAAAAkAAAACT8AAAAJMAAAAAEtAAAAJAAAAAlBAAAACTAAAAAFLwAAACxEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuQ29sdW1uRmlsdGVySW5mbwUAAAAEVHlwZQRLaW5kC0Rpc3BsYXlUZXh0DEZpbHRlclN0cmluZwVWYWx1ZQAAAQECCAguAAAAAQAAAAEAAAAGQwAAAAAGRAAAACBbU291cmNlRGVzY3JpcHRpb25dIDw+ICdXaW5FVlRYJwoBMQAAAC8AAAABAAAAAAAAAAlDAAAABkYAAAAfW1NvdXJjZURlc2NyaXB0aW9uXSA9ICdXaW5FVlRYJwoBMwAAAC8AAAABAAAAAAAAAAlDAAAABkgAAAAjW1NvdXJjZURlc2NyaXB0aW9uXSA9ICdXaW5QcmVmZXRjaCcKATUAAAAvAAAAAQAAAAEAAAAJQwAAAAZKAAAALFtTb3VyY2VOYW1lXSA9ICdSRUcnIE9yIFtTb3VyY2VOYW1lXSA9ICdMT0cnCgE3AAAALwAAAAEAAAAAAAAACUMAAAAGTAAAADVbU291cmNlRGVzY3JpcHRpb25dID0gJ0FwcENvbXBhdENhY2hlIFJlZ2lzdHJ5IEVudHJ5JwoBOQAAAC8AAAABAAAAAQAAAAlDAAAABk4AAABJQ29udGFpbnMoW0xvbmdEZXNjcmlwdGlvbl0sICc0NjI0JykgT3IgQ29udGFpbnMoW0xvbmdEZXNjcmlwdGlvbl0sICcucGYnKQoFOwAAACxEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuQ29sdW1uRmlsdGVySW5mbwUAAAAEVHlwZQRLaW5kC0Rpc3BsYXlUZXh0DEZpbHRlclN0cmluZwVWYWx1ZQAAAQEBCAguAAAAAwAAAAAAAAAJQwAAAAZQAAAAI0NvbnRhaW5zKFtMb25nRGVzY3JpcHRpb25dLCAnNDYyNCcpBlEAAAAENDYyNAU9AAAALERldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5Db2x1bW5GaWx0ZXJJbmZvBQAAAARUeXBlBEtpbmQLRGlzcGxheVRleHQMRmlsdGVyU3RyaW5nBVZhbHVlAAABAQEICC4AAAADAAAAAAAAAAlDAAAABlMAAAAoQ29udGFpbnMoW0xvbmdEZXNjcmlwdGlvbl0sICd2aWJyYW5pdW0nKQZUAAAACXZpYnJhbml1bQE/AAAALwAAAAEAAAABAAAACUMAAAAGVgAAACBbU291cmNlRGVzY3JpcHRpb25dIDw+ICdVTktOT1dOJwoBQQAAAC8AAAABAAAAAQAAAAlDAAAABlgAAAAfW1NvdXJjZURlc2NyaXB0aW9uXSA9ICdVTktOT1dOJwoL</property>
+  <property name="FormatRules" iskey="true" value="7">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="ColumnName">colLongDescription</property>
+      <property name="ApplyToRow">true</property>
+      <property name="Name">Format0</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">Contains([LongDescription], 'MountPoints2') Or Contains([LongDescription], 'volume mounted') Or Contains([LongDescription], 'USB') Or Contains([LongDescription], '/USB/Vid_') Or Contains([LongDescription], 'Enum/USBSTOR/Disk&amp;Ven_') Or Contains([LongDescription], 'RemovableMedia') Or Contains([LongDescription], 'STORAGE/RemovableMedia') Or Contains([LongDescription], 'drive mounted') Or Contains([LongDescription], 'Drive last mounted') Or Contains([LongDescription], 'SetupAPI Log')</property>
+        <property name="PredefinedName">Red Fill</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseForeColor">true</property>
+            <property name="UseBackColor">true</property>
+            <property name="UseFont">true</property>
+          </property>
+          <property name="ForeColor">White</property>
+          <property name="BackColor">0, 112, 192</property>
+          <property name="Font">Tahoma, 8.25pt, style=Bold</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="ColumnName">colLongDescription</property>
+      <property name="ApplyToRow">true</property>
+      <property name="Name">Format1</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">Contains([LongDescription], 'RecentDocs') Or Contains([LongDescription], 'file://') Or Contains([LongDescription], 'LNK') Or Contains([LongDescription], 'Recently') Or Contains([LongDescription], 'file of extension') Or Contains([LongDescription], 'Recently opened file') Or Contains([LongDescription], '.lnk') Or Contains([LongDescription], 'visited file://') Or Contains([LongDescription], 'CreateDate') Or Contains([LongDescription], 'URL:file:///') Or Contains([LongDescription], 'opened by') Or Contains([LongDescription], 'File Opened') Or Contains([LongDescription], 'Folder opened') Or Contains([LongDescription], 'Shortcut LNK') Or Contains([LongDescription], 'RecentDocs key') Or Contains([LongDescription], ' Link target: ') Or Contains([LongDescription], 'File attribute flags') Or Contains([LongDescription], 'Birth droid volume identifier:')</property>
+        <property name="PredefinedName">Green Fill</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseBackColor">true</property>
+          </property>
+          <property name="BackColor">146, 208, 80</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="ColumnName">colLongDescription</property>
+      <property name="ApplyToRow">true</property>
+      <property name="Name">Format2</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">Contains([LongDescription], 'lnk/shell_items') Or Contains([LongDescription], 'File entry shell item') Or Contains([LongDescription], 'BagMRU') Or Contains([LongDescription], 'ShellNoRoam/Bags')</property>
+        <property name="PredefinedName">Green Fill</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseBackColor">true</property>
+          </property>
+          <property name="BackColor">0, 176, 80</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="ColumnName">colLongDescription</property>
+      <property name="ApplyToRow">true</property>
+      <property name="Name">Format3</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">Contains([LongDescription], 'was run') Or Contains([LongDescription], '.pf') Or Contains([LongDescription], 'Scheduled') Or Contains([LongDescription], 'SHIMCACHE') Or Contains([LongDescription], 'UEME_') Or Contains([LongDescription], 'XP Prefetch') Or Contains([LongDescription], 'Prefetch') Or Contains([LongDescription], 'Time of Launch') Or Contains([LongDescription], 'UserAssist key') Or Contains([LongDescription], 'MUICache') Or Contains([LongDescription], 'RunMRU') Or Contains([LongDescription], 'Last run') Or Contains([LongDescription], 'CMD typed') Or Contains([LongDescription], 'typed the following cmd') Or Contains([LongDescription], '\Software\Sysinternals\') Or Contains([LongDescription], 'AppCompatCache') Or Contains([LongDescription], 'Prefetch [')</property>
+        <property name="PredefinedName">Red Fill</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseForeColor">true</property>
+            <property name="UseBackColor">true</property>
+            <property name="UseFont">true</property>
+          </property>
+          <property name="ForeColor">White</property>
+          <property name="BackColor">192, 0, 0</property>
+          <property name="Font">Tahoma, 8.25pt, style=Bold</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="ColumnName">colLongDescription</property>
+      <property name="ApplyToRow">true</property>
+      <property name="Name">Format4</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">Contains([LongDescription], 'Last Visited Time') Or Contains([LongDescription], 'Expiration Time') Or Contains([LongDescription], 'Cookie') Or Contains([LongDescription], 'Visited') Or Contains([LongDescription], 'Analytics') Or Contains([LongDescription], 'URL') Or Contains([LongDescription], 'Flash Cookie') Or Contains([LongDescription], 'LSO') Or Contains([LongDescription], 'WEBHIST') Or Contains([LongDescription], 'http://') Or Contains([LongDescription], 'Location:') Or Contains([LongDescription], 'time(s) [HTTP')</property>
+        <property name="PredefinedName">Yellow Fill, Yellow Text</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseForeColor">true</property>
+            <property name="UseBackColor">true</property>
+          </property>
+          <property name="ForeColor">Black</property>
+          <property name="BackColor">255, 192, 0</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="ColumnName">colLongDescription</property>
+      <property name="ApplyToRow">true</property>
+      <property name="Name">Format5</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">Contains([LongDescription], 'RECYCLE') Or Contains([LongDescription], 'DELETED') Or Contains([LongDescription], 'Deleted Registry') Or Contains([LongDescription], '$Recycle.bin')</property>
+        <property name="PredefinedName">Red Fill</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseForeColor">true</property>
+            <property name="UseBackColor">true</property>
+          </property>
+          <property name="ForeColor">White</property>
+          <property name="BackColor">Black</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="ColumnName">colLongDescription</property>
+      <property name="ApplyToRow">true</property>
+      <property name="Name">Format6</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">Contains([LongDescription], 'EVT') Or Contains([LongDescription], 'XP Firewall Log') Or Contains([LongDescription], 'Event level:')</property>
+        <property name="PredefinedName">Red Fill</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseBackColor">true</property>
+          </property>
+          <property name="BackColor">238, 236, 225</property>
+        </property>
+      </property>
+    </property>
+  </property>
+  <property name="SortInfo">~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFHcmlkLnYxNi4xLCBWZXJzaW9uPTE2LjEuNy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAADhEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvQ29sbGVjdGlvbgQAAAAKZ3JvdXBDb3VudAVjbG9uZQ9jbG9uZUdyb3VwQ291bnQTQ29sbGVjdGlvbkJhc2UrbGlzdAADAAMIsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjE2LjEsIFZlcnNpb249MTYuMS43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dCBxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AgAAAAAAAAAJAwAAAAEAAAAJBAAAAAQDAAAAsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjE2LjEsIFZlcnNpb249MTYuMS43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAwRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mb1tdAgAAAAgICQUAAAACAAAAAgAAAAQEAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QDAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQYAAAABAAAABgAAAAcFAAAAAAEAAAAEAAAABC5EZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvAgAAAAkHAAAACQgAAAANAhAGAAAABAAAAAkJAAAADQMMCgAAABlEZXZFeHByZXNzLlh0cmFHcmlkLnYxNi4xBQcAAAAuRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mbwIAAAAJU29ydE9yZGVyCkNvbHVtbk5hbWUAAQgKAAAAAQAAAAYLAAAAFGNvbFNvdXJjZURlc2NyaXB0aW9uAQgAAAAHAAAAAQAAAAYMAAAADGNvbFRpbWVzdGFtcAEJAAAABwAAAAEAAAAJDAAAAAs=</property>
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>
