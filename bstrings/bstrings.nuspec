@@ -14,7 +14,7 @@
     <title>bstrings</title>
     <authors>Eric Zimmerman</authors>
 
-    <projectUrl>https://binaryforay.blogspot.com/</projectUrl>
+	<projectUrl>https://ericzimmerman.github.io/</projectUrl>
     <iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/bstrings/bstringsIcon.png</iconUrl>
     <copyright>2016 Eric R. Zimmerman</copyright>
 
@@ -30,7 +30,7 @@
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
-    <file src="bin\**" target="bin" />
+    <file src="tools\**" target="tools" />
     
   </files>
 </package>
