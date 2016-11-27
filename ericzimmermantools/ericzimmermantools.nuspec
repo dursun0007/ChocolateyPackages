@@ -28,7 +28,7 @@
     <description>Installs tools for lnk files, jump lists, Registry hives, hashing, and much more</description>
     
     <dependencies>
-    	<dependency id='dotnet4.6' />
+    	<dependency id='dotnet4.6.2' />
 		<dependency id='amcacheparser' />
 		<dependency id='appcompat-cacheparser' />
 		<dependency id='bstrings' />
