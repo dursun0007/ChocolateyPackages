@@ -27,6 +27,9 @@
     <tags>prefetch execution forensics</tags>
     <summary>Windows prefetch parser</summary>
     <description>Fully parses Windows prefetch files (XP-Windows 10) and allows for exporting in a wide variety of formats, keyword hits in contents, etc. Windows 10 prefetch support requires running on Windows 8 or later</description>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

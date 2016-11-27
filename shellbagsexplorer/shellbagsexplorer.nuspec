@@ -26,6 +26,9 @@
     <tags>registry shellbag BagMRU shellitem forensics</tags>
     <summary>ShellBags Explorer allows for visually viewing and interacting with shell bags found in usrclass.dat and ntuser.dat Registry hives</summary>
     <description>Comprehensive support for all known shell item types, exporting, filtering, sorting, file system detecion, and more!</description>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

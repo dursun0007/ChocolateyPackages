@@ -26,6 +26,9 @@
     <tags>X-Ways forensics installer forensics</tags>
     <summary>X-Ways Forensics Installation Manager</summary>
     <description>One click installation and updating of all X-Ways software including Forensics, Imager, and Investigator. Can also build portable installations, and validate installs</description>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

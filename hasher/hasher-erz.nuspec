@@ -26,6 +26,9 @@
     <tags>hashing md5 sha-1 sha-256 md4 crc32 sha-512 tiger whirlpool eMule forensics</tags>
     <summary>Fast, multi-threaded file hashing utility</summary>
     <description>Hash files or entire directories using a wide variety of file hashes</description>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

@@ -27,6 +27,9 @@
     <tags>jumplist lnk olecf</tags>
     <summary>Command line jumplist parser with Windows 10 support</summary>
     <description>JLECmd parses and allows for exporting details from custom and automatic destination jumplists. Allows for dumping all lnk files from jumplists, and more</description>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

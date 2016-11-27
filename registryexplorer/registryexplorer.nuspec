@@ -26,6 +26,9 @@
     <tags>registry deleted plugin forensics</tags>
     <summary>Registry Explorer is a Windows Registry analysis tool with a ton of functionality not found anywhere else</summary>
     <description>Supports recovery of deleted keys and values, multi hive support, the fastest searching, viewing slack space, plugin support, and much more</description>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

@@ -8,3 +8,7 @@ $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFold
 $link = Join-Path $desktop "XWFIM.lnk"
 
 Remove-Item $link
+
+$link = Join-Path $desktop "READ ME NOW. No seriously, READ THIS NOW!!!!.txt.lnk"
+
+Remove-Item $link

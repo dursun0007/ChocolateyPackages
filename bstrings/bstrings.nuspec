@@ -27,6 +27,9 @@
     <tags>strings unicode codepage regex forensics</tags>
     <summary>bstrings is a better strings utility</summary>
     <description>Contains built in regex for searching for common things like URLs, emails, IPs, and more. Very fast and works against files of any size</description>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

@@ -27,6 +27,9 @@
     <tags>registry appcompatcache shimcache execution forensics</tags>
     <summary>AppCompatCache aka shimcache parser</summary>
     <description>AppCompatCache parser used to show evidence of execution</description>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

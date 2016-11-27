@@ -26,10 +26,24 @@
     <tags>eric zimmerman forensics tools</tags>
     <summary>A single package that installs all my forensic tools</summary>
     <description>Installs tools for lnk files, jump lists, Registry hives, hashing, and much more</description>
-   </metadata>
-  <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
-    <file src="tools\**" target="tools" />
     
-  </files>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+		<dependency id='amcacheparser' />
+		<dependency id='appcompat-cacheparser' />
+		<dependency id='bstrings' />
+		<dependency id='hasher-erz' />
+		<dependency id='iisgeolocate' />
+		<dependency id='jlecmd' />
+		<dependency id='jumplistexplorer' />
+		<dependency id='lecmd' />
+		<dependency id='pecmd' />
+		<dependency id='registryexplorer' />
+		<dependency id='shellbagsexplorer' />
+		<dependency id='timeapp' />
+		<dependency id='timelineexplorer' />
+		<dependency id='xwfim' />
+    </dependencies>
+    
+   </metadata>
 </package>

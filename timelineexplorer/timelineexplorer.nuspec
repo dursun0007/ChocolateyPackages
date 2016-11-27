@@ -26,6 +26,9 @@
     <tags>timeline plaso fls log2timeline forensics forensics</tags>
     <summary>Timeline Explorer allows for viewing plaso/log2timeline and fls/mactime generated timelines</summary>
     <description>Allows for instant filtering, searching, sorting, grouping, and contains a details view that makes reviewing complex entries much easier</description>
+    <dependencies>
+    	<dependency id='dotnet4.6' />
+	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
