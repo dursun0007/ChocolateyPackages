@@ -27,7 +27,7 @@
     <summary>Registry Explorer is a Windows Registry analysis tool with a ton of functionality not found anywhere else</summary>
     <description>Supports recovery of deleted keys and values, multi hive support, the fastest searching, viewing slack space, plugin support, and much more</description>
     <dependencies>
-    	<dependency id='dotnet4.6' />
+    	<dependency id='dotnet4.6.2' />
 	</dependencies>
    </metadata>
   <files>

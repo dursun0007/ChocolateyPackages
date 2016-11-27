@@ -27,7 +27,7 @@
     <summary>Fast, multi-threaded file hashing utility</summary>
     <description>Hash files or entire directories using a wide variety of file hashes</description>
     <dependencies>
-    	<dependency id='dotnet4.6' />
+    	<dependency id='dotnet4.6.2' />
 	</dependencies>
    </metadata>
   <files>
