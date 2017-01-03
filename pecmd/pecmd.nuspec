@@ -6,7 +6,7 @@
     
     <id>pecmd</id>
     
-    <version>0.7.2.0</version>
+    <version>0.9.0.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -27,9 +27,6 @@
     <tags>prefetch execution forensics</tags>
     <summary>Windows prefetch parser</summary>
     <description>Fully parses Windows prefetch files (XP-Windows 10) and allows for exporting in a wide variety of formats, keyword hits in contents, etc. Windows 10 prefetch support requires running on Windows 8 or later</description>
-    <dependencies>
-    	<dependency id='dotnet4.6.2' />
-	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

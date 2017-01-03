@@ -6,7 +6,7 @@
     
     <id>ericzimmermantools</id>
     
-    <version>1.0.0.0</version>
+    <version>1.1.0.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -28,21 +28,20 @@
     <description>Installs tools for lnk files, jump lists, Registry hives, hashing, and much more</description>
     
     <dependencies>
-    	<dependency id='dotnet4.6.2' />
-		<dependency id='amcacheparser' />
-		<dependency id='appcompat-cacheparser' />
-		<dependency id='bstrings' />
-		<dependency id='hasher-erz' />
-		<dependency id='iisgeolocate' />
-		<dependency id='jlecmd' />
-		<dependency id='jumplistexplorer' />
-		<dependency id='lecmd' />
-		<dependency id='pecmd' />
-		<dependency id='registryexplorer' />
-		<dependency id='shellbagsexplorer' />
-		<dependency id='timeapp' />
-		<dependency id='timelineexplorer' />
-		<dependency id='xwfim' />
+		<dependency id='amcacheparser' version="0.9.1.0" />
+		<dependency id='appcompat-cacheparser' version="0.9.5.0"/>
+		<dependency id='bstrings' version="1.1.1.0"/>
+		<dependency id='hasher-erz' version="1.8.0.0"/>
+		<dependency id='iisgeolocate' version="1.1.0.0"/>
+		<dependency id='jlecmd' version="0.9.8.0"/>
+		<dependency id='jumplistexplorer' version="0.3.0.0"/>
+		<dependency id='lecmd' version="0.9.5.0"/>
+		<dependency id='pecmd' version="0.9.0.0"/>
+		<dependency id='registryexplorer' version="0.8.1.0"/>
+		<dependency id='shellbagsexplorer' version="0.7.0.0"/>
+		<dependency id='timeapp' version="1.1.0.0"/>
+		<dependency id='timelineexplorer' version="0.2.0.0"/>
+		<dependency id='xwfim' version="1.6.4.0"/>
     </dependencies>
     
    </metadata>

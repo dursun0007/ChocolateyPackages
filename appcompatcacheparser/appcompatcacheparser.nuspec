@@ -6,7 +6,7 @@
     
     <id>appcompat-cacheparser</id>
        
-    <version>0.9.4.0</version>
+    <version>0.9.5.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -27,9 +27,6 @@
     <tags>registry appcompatcache shimcache execution forensics</tags>
     <summary>AppCompatCache aka shimcache parser</summary>
     <description>AppCompatCache parser used to show evidence of execution</description>
-<!--    <dependencies>-->
-<!--    	<dependency id='dotnet4.6.2' />-->
-<!--	</dependencies>-->
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

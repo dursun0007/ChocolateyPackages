@@ -6,7 +6,7 @@
     
     <id>jlecmd</id>
     
-    <version>0.9.7.0</version>
+    <version>0.9.8.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -27,9 +27,6 @@
     <tags>jumplist lnk olecf</tags>
     <summary>Command line jumplist parser with Windows 10 support</summary>
     <description>JLECmd parses and allows for exporting details from custom and automatic destination jumplists. Allows for dumping all lnk files from jumplists, and more</description>
-    <dependencies>
-    	<dependency id='dotnet4.6.2' />
-	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
