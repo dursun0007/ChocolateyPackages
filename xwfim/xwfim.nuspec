@@ -6,7 +6,7 @@
     
     <id>xwfim</id>
     
-    <version>1.6.4.0</version>
+    <version>1.6.5.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -26,9 +26,6 @@
     <tags>X-Ways forensics installer forensics</tags>
     <summary>X-Ways Forensics Installation Manager</summary>
     <description>One click installation and updating of all X-Ways software including Forensics, Imager, and Investigator. Can also build portable installations, and validate installs</description>
-    <dependencies>
-    	<dependency id='dotnet4.6.2' />
-	</dependencies>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
