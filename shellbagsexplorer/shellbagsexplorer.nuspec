@@ -6,7 +6,7 @@
     
     <id>shellbagsexplorer</id>
     
-    <version>0.7.0.0</version>
+    <version>0.8.0.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -26,9 +26,7 @@
     <tags>registry shellbag BagMRU shellitem forensics</tags>
     <summary>ShellBags Explorer allows for visually viewing and interacting with shell bags found in usrclass.dat and ntuser.dat Registry hives</summary>
     <description>Comprehensive support for all known shell item types, exporting, filtering, sorting, file system detecion, and more!</description>
-    <dependencies>
-    	<dependency id='dotnet4.6.2' />
-	</dependencies>
+
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
