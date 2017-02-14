@@ -1,0 +1,137 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="AllowIncrementalSearch">true</property>
+    <property name="AllowDeleteRows">False</property>
+    <property name="Editable">false</property>
+    <property name="ReadOnly">true</property>
+  </property>
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="MultiSelectMode">CellSelect</property>
+    <property name="MultiSelect">true</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="HeaderFilterButtonShowMode">SmartTag</property>
+    <property name="ColumnAutoWidth">false</property>
+    <property name="ShowAutoFilterRow">true</property>
+    <property name="EnableAppearanceOddRow">true</property>
+  </property>
+  <property name="OptionsMenu" isnull="true" iskey="true">
+    <property name="ShowConditionalFormattingItem">true</property>
+  </property>
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="RowHeight">-1</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ChildGridLevelName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="PreviewFieldName" />
+  <property name="GroupPanelText" />
+  <property name="NewItemRowText" />
+  <property name="LevelIndent">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="HorzScrollStep">0</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="OptionsFilter" isnull="true" iskey="true">
+    <property name="ColumnFilterPopupMode">Excel</property>
+  </property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="Columns" iskey="true" value="12">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">colLine</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">61</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Name">colEntryLocation</property>
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">446</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Name">colEntry</property>
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">259</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">colEnabled</property>
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="Width">65</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">colCategory</property>
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="Width">113</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Name">colDescription</property>
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+      <property name="Width">394</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Name">colPublisher</property>
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="Width">279</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">colImagePath</property>
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="Width">422</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">colLaunchString</property>
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="Width">563</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">colMD5</property>
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="Width">233</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Name">colSHA1</property>
+      <property name="VisibleIndex">10</property>
+      <property name="Visible">true</property>
+      <property name="Width">289</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">colSHA256</property>
+      <property name="VisibleIndex">11</property>
+      <property name="Visible">true</property>
+      <property name="Width">454</property>
+    </property>
+  </property>
+  <property name="ViewCaption" />
+  <property name="BorderStyle">Default</property>
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="Name">gridView1</property>
+  <property name="DetailHeight">350</property>
+  <property name="Tag" isnull="true" />
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="MRUFilters">~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFHcmlkLnYxNi4yLCBWZXJzaW9uPTE2LjIuNC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAADZEZXZFeHByZXNzLlh0cmFHcmlkLlZpZXdzLkJhc2UuTVJVVmlld0ZpbHRlckNvbGxlY3Rpb24BAAAAE0NvbGxlY3Rpb25CYXNlK2xpc3QDHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QCAAAACQMAAAAEAwAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24FAAAICAkEAAAACQAAAAsAAAAQBAAAABAAAAAJBQAAAAkGAAAACQcAAAAJCAAAAAkJAAAACQoAAAAJCwAAAAkMAAAACQ0AAAANBwwOAAAAWURldkV4cHJlc3MuRGF0YS52MTYuMiwgVmVyc2lvbj0xNi4yLjQuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhBQUAAAApRGV2RXhwcmVzcy5YdHJhR3JpZC5WaWV3cy5CYXNlLlZpZXdGaWx0ZXICAAAAGGZOb25Db2x1bW5GaWx0ZXJDcml0ZXJpYRNDb2xsZWN0aW9uQmFzZStsaXN0BAMqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDgAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AgAAAAoJDwAAAAEGAAAABQAAAAoJEAAAAAEHAAAABQAAAAoJEQAAAAEIAAAABQAAAAoJEgAAAAEJAAAABQAAAAoJEwAAAAEKAAAABQAAAAoJFAAAAAELAAAABQAAAAoJFQAAAAEMAAAABQAAAAoJFgAAAAENAAAABQAAAAoJFwAAAAEPAAAAAwAAAAkYAAAAAQAAAAMAAAABEAAAAAMAAAAJGQAAAAEAAAADAAAAAREAAAADAAAACRoAAAABAAAAAwAAAAESAAAAAwAAAAkbAAAAAQAAAAMAAAABEwAAAAMAAAAJHAAAAAEAAAADAAAAARQAAAADAAAACR0AAAABAAAAAwAAAAEVAAAAAwAAAAkeAAAAAQAAAAMAAAABFgAAAAMAAAAJHwAAAAEAAAADAAAAARcAAAADAAAACSAAAAABAAAAAwAAABAYAAAABAAAAAkhAAAADQMQGQAAAAQAAAAJIgAAAA0DEBoAAAAEAAAACSMAAAANAxAbAAAABAAAAAkkAAAADQMQHAAAAAQAAAAJJQAAAA0DEB0AAAAEAAAACSYAAAANAxAeAAAABAAAAAknAAAADQMQHwAAAAQAAAAJKAAAAA0DECAAAAAEAAAACSkAAAANAwwqAAAAGURldkV4cHJlc3MuWHRyYUdyaWQudjE2LjIFIQAAADNEZXZFeHByZXNzLlh0cmFHcmlkLlZpZXdzLkJhc2UuVmlld0NvbHVtbkZpbHRlckluZm8CAAAABkZpbHRlcgZDb2x1bW4EASxEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuQ29sdW1uRmlsdGVySW5mbyoAAAAqAAAACSsAAAAGLAAAAAxjb2xQdWJsaXNoZXIBIgAAACEAAAAJLQAAAAksAAAAASMAAAAhAAAACS8AAAAJLAAAAAEkAAAAIQAAAAkxAAAACSwAAAABJQAAACEAAAAJMwAAAAksAAAAASYAAAAhAAAACTUAAAAJLAAAAAEnAAAAIQAAAAk3AAAACSwAAAABKAAAACEAAAAJOQAAAAksAAAAASkAAAAhAAAACTsAAAAJLAAAAAUrAAAALERldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5Db2x1bW5GaWx0ZXJJbmZvBQAAAARUeXBlBEtpbmQLRGlzcGxheVRleHQMRmlsdGVyU3RyaW5nBVZhbHVlAAABAQIICCoAAAABAAAAAAAAAAY9AAAAAAY+AAAAlgFbUHVibGlzaGVyXSBJbiAoJycsICcoTm90IHZlcmlmaWVkKSBWTXdhcmUsIEluYy4nLCAnKE5vdCBWZXJpZmllZCkgVk13YXJlLCBJbmMuJywgJyhWZXJpZmllZCkgQWdpbGUgUmlzayBNYW5hZ2VtZW50IExMQycsICcoVmVyaWZpZWQpIFRoaW5QcmludCBHbWJIJykKAS0AAAArAAAAAQAAAAAAAAAJPQAAAAZAAAAAbltQdWJsaXNoZXJdIEluICgnJywgJyhOb3QgdmVyaWZpZWQpIFZNd2FyZSwgSW5jLicsICcoTm90IFZlcmlmaWVkKSBWTXdhcmUsIEluYy4nLCAnKFZlcmlmaWVkKSBUaGluUHJpbnQgR21iSCcpCgEvAAAAKwAAAAEAAAAAAAAACT0AAAAGQgAAAFFbUHVibGlzaGVyXSBJbiAoJycsICcoTm90IHZlcmlmaWVkKSBWTXdhcmUsIEluYy4nLCAnKE5vdCBWZXJpZmllZCkgVk13YXJlLCBJbmMuJykKATEAAAArAAAAAQAAAAAAAAAJPQAAAAZEAAAAMltQdWJsaXNoZXJdIEluICgnJywgJyhOb3QgdmVyaWZpZWQpIFZNd2FyZSwgSW5jLicpCgEzAAAAKwAAAAEAAAAAAAAACT0AAAAGRgAAABBbUHVibGlzaGVyXSA9ICcnCgE1AAAAKwAAAAEAAAAAAAAACT0AAAAGSAAAAJIBW1B1Ymxpc2hlcl0gSW4gKCcoTm90IHZlcmlmaWVkKSBWTXdhcmUsIEluYy4nLCAnKE5vdCBWZXJpZmllZCkgVk13YXJlLCBJbmMuJywgJyhWZXJpZmllZCkgQWdpbGUgUmlzayBNYW5hZ2VtZW50IExMQycsICcoVmVyaWZpZWQpIFRoaW5QcmludCBHbWJIJykKATcAAAArAAAAAQAAAAAAAAAJPQAAAAZKAAAAdVtQdWJsaXNoZXJdIEluICgnKE5vdCB2ZXJpZmllZCkgVk13YXJlLCBJbmMuJywgJyhOb3QgVmVyaWZpZWQpIFZNd2FyZSwgSW5jLicsICcoVmVyaWZpZWQpIEFnaWxlIFJpc2sgTWFuYWdlbWVudCBMTEMnKQoBOQAAACsAAAABAAAAAAAAAAk9AAAABkwAAABNW1B1Ymxpc2hlcl0gSW4gKCcoTm90IHZlcmlmaWVkKSBWTXdhcmUsIEluYy4nLCAnKE5vdCBWZXJpZmllZCkgVk13YXJlLCBJbmMuJykKATsAAAArAAAAAQAAAAAAAAAJPQAAAAZOAAAAK1tQdWJsaXNoZXJdID0gJyhOb3QgdmVyaWZpZWQpIFZNd2FyZSwgSW5jLicKCw==</property>
+  <property name="FormatRules" iskey="true" value="0" />
+  <property name="SortInfo">~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFHcmlkLnYxNi4yLCBWZXJzaW9uPTE2LjIuNC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAADhEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvQ29sbGVjdGlvbgQAAAAKZ3JvdXBDb3VudAVjbG9uZQ9jbG9uZUdyb3VwQ291bnQTQ29sbGVjdGlvbkJhc2UrbGlzdAADAAMIsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjE2LjIsIFZlcnNpb249MTYuMi40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dCBxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AgAAAAAAAAAJAwAAAAAAAAAJBAAAAAQDAAAAsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjE2LjIsIFZlcnNpb249MTYuMi40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAwRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mb1tdAgAAAAgICQUAAAAAAAAAAAAAAAQEAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QDAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQYAAAABAAAABAAAAAcFAAAAAAEAAAAAAAAABC5EZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvAgAAABAGAAAABAAAAAkHAAAADQMMCAAAABlEZXZFeHByZXNzLlh0cmFHcmlkLnYxNi4yBQcAAAAuRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mbwIAAAAJU29ydE9yZGVyCkNvbHVtbk5hbWUAAQgIAAAAAQAAAAYJAAAAB2NvbExpbmUL</property>
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>
