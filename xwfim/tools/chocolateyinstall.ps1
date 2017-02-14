@@ -1,9 +1,9 @@
-﻿$checksum      = '7CE491AAD23642364EFAE77A4C08E0D8EE371B44239E2EE2745667FC0CDA1406'
-$checksumType  = 'sha256'
+﻿#$checksum      = '7CE491AAD23642364EFAE77A4C08E0D8EE371B44239E2EE2745667FC0CDA1406'
+#$checksumType  = 'sha256'
 
-$unzipTo = Join-Path $env:chocolateyPackageFolder "tools\XWFIM"
+#$unzipTo = Join-Path $env:chocolateyPackageFolder "tools\XWFIM"
 
-Install-ChocolateyZipPackage -PackageName 'xwfim' https://ericzimmerman.github.io/Software/XWFIM.zip -UnzipLocation $unzipTo -Checksum $checksum -ChecksumType $checksumType
+#Install-ChocolateyZipPackage -PackageName 'xwfim' https://ericzimmerman.github.io/Software/XWFIM.zip -UnzipLocation $unzipTo -Checksum $checksum -ChecksumType $checksumType
 
 
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
