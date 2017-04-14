@@ -6,7 +6,7 @@
     
     <id>timelineexplorer</id>
     
-    <version>0.3.3.0</version>
+    <version>0.4.0.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -24,7 +24,7 @@
     <docsUrl>https://binaryforay.blogspot.com/</docsUrl>
 
     <tags>timeline plaso fls log2timeline forensics forensics</tags>
-    <summary>Timeline Explorer allows for viewing plaso/log2timeline and fls/mactime generated timelines</summary>
+    <summary>Timeline Explorer allows for viewing a wide range of CSV files such as plaso/log2timeline and fls/mactime generated timelines. It can also open any CSV or Excel file</summary>
     <description>Allows for instant filtering, searching, sorting, grouping, and contains a details view that makes reviewing complex entries much easier</description>
 
    </metadata>
