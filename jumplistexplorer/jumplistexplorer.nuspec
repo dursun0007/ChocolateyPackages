@@ -6,7 +6,7 @@
     
     <id>jumplistexplorer</id>
     
-    <version>0.4.0.0</version>
+    <version>0.5.0.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -16,7 +16,7 @@
 
     <projectUrl>https://ericzimmerman.github.io/</projectUrl>
     <iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/jumplistexplorer/jumplistexplorerIcon.png</iconUrl>
-    <copyright>2016 Eric R. Zimmerman</copyright>
+    <copyright>2017 Eric R. Zimmerman</copyright>
 
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <releaseNotes>https://binaryforay.blogspot.com</releaseNotes>
