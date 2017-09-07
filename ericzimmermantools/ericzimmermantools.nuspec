@@ -6,7 +6,7 @@
     
     <id>ericzimmermantools</id>
     
-    <version>1.9.6.0</version>
+    <version>1.9.7.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -38,7 +38,7 @@
 		<dependency id='lecmd' version="0.9.7.0"/>
 		<dependency id='pecmd' version="0.9.0.0"/>
 		<dependency id='registryexplorer' version="0.9.0.1"/>
-		<dependency id='shellbagsexplorer' version="0.9.0.1"/>
+		<dependency id='shellbagsexplorer' version="0.9.5.0"/>
 		<dependency id='timeapp' version="1.1.0.0"/>
 		<dependency id='timelineexplorer' version="0.5.5.0"/>
 		<dependency id='xwfim' version="1.7.0.0"/>
