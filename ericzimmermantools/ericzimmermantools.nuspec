@@ -6,7 +6,7 @@
     
     <id>ericzimmermantools</id>
     
-    <version>1.9.8.1</version>
+    <version>1.9.9.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -28,7 +28,7 @@
     <description>Installs tools for lnk files, jump lists, Registry hives, hashing, and much more</description>
     
     <dependencies>
-		<dependency id='amcacheparser' version="0.9.1.0" />
+		<dependency id='amcacheparser' version="0.9.2.0" />
 		<dependency id='appcompat-cacheparser' version="0.9.8.1"/>
 		<dependency id='bstrings' version="1.2.0.0"/>
 		<dependency id='hasher-erz' version="1.8.0.0"/>
