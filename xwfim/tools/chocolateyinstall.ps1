@@ -9,12 +9,12 @@
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 
 $link = Join-Path $desktop "XWFIM.lnk"
-$target = Join-Path $env:chocolateyPackageFolder "tools\XWFIM\XWFIM.exe"
-$work = Join-Path $env:chocolateyPackageFolder "tools\XWFIM"
+$target = Join-Path $env:chocolateyPackageFolder "tools\XWFIM.exe"
+$work = Join-Path $env:chocolateyPackageFolder "tools"
 Install-ChocolateyShortcut -ShortcutFilePath  $link -TargetPath $target -WorkingDirectory $work -RunAsAdmin
 
 
 $link = Join-Path $desktop "READ ME NOW. No seriously, READ THIS NOW!!!!.txt.lnk"
-$target = Join-Path $env:chocolateyPackageFolder "tools\XWFIM\READ ME NOW. No seriously, READ THIS NOW!!!!.txt"
-$work = Join-Path $env:chocolateyPackageFolder "tools\XWFIM"
+$target = Join-Path $env:chocolateyPackageFolder "tools\READ ME NOW. No seriously, READ THIS NOW!!!!.txt"
+$work = Join-Path $env:chocolateyPackageFolder "tools"
 Install-ChocolateyShortcut -ShortcutFilePath  $link -TargetPath $target -WorkingDirectory $work -RunAsAdmin
