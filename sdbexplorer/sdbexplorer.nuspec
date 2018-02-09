@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    
+    <id>sdbexplorer</id>
+    
+    <version>0.5.0.0</version>
+    <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>Eric R. Zimmerman</owners>
+    
+    <title>SDB Explorer</title>
+    <authors>Eric Zimmerman</authors>
+
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/sdbexplorer/sdbexplorerIcon.png</iconUrl>
+    <copyright>2018 Eric R. Zimmerman</copyright>
+
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <releaseNotes>https://binaryforay.blogspot.com</releaseNotes>
+
+    <docsUrl>https://binaryforay.blogspot.com/</docsUrl>
+
+    <tags>sdb shim appcompat forensics</tags>
+    <summary>GUI SDB parser</summary>
+    <description>SDB Explorer parses and allows for interacting with contents of SDB databases. View binary patch contents, dump strings, and more.</description>
+
+   </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    
+  </files>
+</package>
