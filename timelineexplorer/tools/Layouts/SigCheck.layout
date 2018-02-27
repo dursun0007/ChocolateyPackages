@@ -14,6 +14,7 @@
     <property name="ColumnAutoWidth">false</property>
     <property name="ShowAutoFilterRow">true</property>
     <property name="EnableAppearanceOddRow">true</property>
+    <property name="EnableAppearanceEvenRow">true</property>
   </property>
   <property name="OptionsFilter" isnull="true" iskey="true">
     <property name="DefaultFilterEditorView">VisualAndText</property>
@@ -54,7 +55,7 @@
       <property name="Name">colPath</property>
       <property name="VisibleIndex">2</property>
       <property name="Visible">true</property>
-      <property name="Width">764</property>
+      <property name="Width">562</property>
     </property>
     <property name="Item2" isnull="true" iskey="true">
       <property name="Name">colVerified</property>
@@ -66,7 +67,7 @@
       <property name="Name">colTimestamp</property>
       <property name="VisibleIndex">4</property>
       <property name="Visible">true</property>
-      <property name="Width">107</property>
+      <property name="Width">215</property>
     </property>
     <property name="Item4" isnull="true" iskey="true">
       <property name="Name">colPublisher</property>
@@ -178,7 +179,15 @@
   <property name="Name">gridView1</property>
   <property name="DetailHeight">350</property>
   <property name="Tag" isnull="true" />
-  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="GroupSummary" iskey="true" value="1">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="ShowInGroupColumnFooterName" />
+      <property name="Tag" isnull="true" />
+      <property name="FieldName" />
+      <property name="SummaryType">Count</property>
+      <property name="DisplayFormat"> (Count: {0:N0})</property>
+    </property>
+  </property>
   <property name="ActiveFilterString" />
   <property name="FormatRules" iskey="true" value="0" />
   <property name="GroupSummarySortInfoState" />
