@@ -1,4 +1,4 @@
-﻿$checksum      = '7b61f38c88595014583b7f12650e9231e19ee940b30731b17c9331726d47bcbd'
+﻿$checksum      = '01b951dd47d68d337fdf1b3b470408eed0eb58f8c601dafbdd5c2e9b5f5a4ef8'
 $checksumType  = 'sha256'
 
 $unzipTo = Join-Path $env:chocolateyPackageFolder "tools"
