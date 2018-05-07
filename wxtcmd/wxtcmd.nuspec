@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    
+    <id>wxtcmd</id>
+    
+    <version>0.2.0.0</version>
+    <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>Eric R. Zimmerman</owners>
+    
+    <title>WxTCmd</title>
+    <authors>Eric Zimmerman</authors>
+
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+	<iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/lecmd/wxtcmdIcon.png</iconUrl>
+    <copyright>2016 Eric R. Zimmerman</copyright>
+
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <releaseNotes>https://github.com/EricZimmerman/WxTCmd/releases</releaseNotes>
+
+    <projectSourceUrl>https://github.com/EricZimmerman/WxTCmd</projectSourceUrl>
+    <docsUrl>https://binaryforay.blogspot.com/</docsUrl>
+
+    <tags>Windows 10 Timeline</tags>
+    <summary>Windows 10 Timeline database parser</summary>
+    <description>Extracts out various details from Windows 10 Timeline databases</description>
+   </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    
+  </files>
+</package>
