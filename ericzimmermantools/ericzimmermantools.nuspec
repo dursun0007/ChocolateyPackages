@@ -6,7 +6,7 @@
     
     <id>ericzimmermantools</id>
     
-    <version>2.3.2.6</version>
+    <version>2.3.3.6</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -44,6 +44,7 @@
 		<dependency id='timelineexplorer' version="0.8.2.0"/>
 		<dependency id='xwfim' version="1.7.0.0"/>
 		<dependency id='wxtcmd' version="0.2.1.0"/>
+		<dependency id='mftecmd' version="0.2.5.0"/>
     </dependencies>
     
    </metadata>
