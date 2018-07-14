@@ -6,7 +6,11 @@
     
     <id>ericzimmermantools</id>
     
+<<<<<<< HEAD
     <version>2.4.2.0</version>
+=======
+    <version>2.4.1.2</version>
+>>>>>>> 7f60b0a0578aa43055bd5667be294f1324a36383
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
@@ -41,10 +45,17 @@
 		<dependency id='registryexplorer' version="1.0.0.4"/>
 		<dependency id='shellbagsexplorer' version="1.0.0.2"/>
 		<dependency id='timeapp' version="1.3.1.0"/>
+<<<<<<< HEAD
 		<dependency id='timelineexplorer' version="0.8.5.0"/>
 		<dependency id='xwfim' version="1.7.0.0"/>
 		<dependency id='wxtcmd' version="0.2.1.0"/>
 		<dependency id='mftecmd' version="0.2.7.0"/>
+=======
+		<dependency id='timelineexplorer' version="0.8.4.1"/>
+		<dependency id='xwfim' version="1.7.0.0"/>
+		<dependency id='wxtcmd' version="0.2.1.0"/>
+		<dependency id='mftecmd' version="0.2.6.0"/>
+>>>>>>> 7f60b0a0578aa43055bd5667be294f1324a36383
     </dependencies>
     
    </metadata>
