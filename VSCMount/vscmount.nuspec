@@ -15,7 +15,7 @@
     <authors>Eric Zimmerman</authors>
 
     <projectUrl>https://ericzimmerman.github.io/</projectUrl>
-	<iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/vscmount/vscMountIcon.png</iconUrl>
+	<iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/VSCMount/vscMountIcon.png</iconUrl>
     <copyright>2018 Eric R. Zimmerman</copyright>
 
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
