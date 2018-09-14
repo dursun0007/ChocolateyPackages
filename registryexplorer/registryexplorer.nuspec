@@ -6,7 +6,7 @@
     
     <id>registryexplorer</id>
     
-    <version>1.1.0.0</version>
+    <version>1.1.0.1</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
