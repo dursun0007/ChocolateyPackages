@@ -8,6 +8,6 @@ Install-ChocolateyZipPackage -PackageName 'registryexplorer' https://ericzimmerm
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 
 $link = Join-Path $desktop "Registry Explorer.lnk"
-$target = Join-Path $env:chocolateyPackageFolder "tools\RegistryExplorer.exe"
-$work = Join-Path $env:chocolateyPackageFolder "tools"
+$target = Join-Path $env:chocolateyPackageFolder "RegistryExplorer.exe"
+$work = $env:chocolateyPackageFolder 
 Install-ChocolateyShortcut -ShortcutFilePath $link -TargetPath $target -WorkingDirectory $work -RunAsAdmin
