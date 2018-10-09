@@ -7,7 +7,7 @@
     <id>ericzimmermantools</id>
     
 
-    <version>2.5.0.8</version>
+    <version>2.5.0.9</version>
 
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
@@ -35,10 +35,10 @@
 		<dependency id='bstrings' version="1.4.1.0"/>
 		<dependency id='hasher-erz' version="1.9.0.0"/>
 		<dependency id='iisgeolocate' version="1.4.0.0"/>
-		<dependency id='jlecmd' version="1.1.0.0"/>
-		<dependency id='jumplistexplorer' version="0.7.0.0"/>
+		<dependency id='jlecmd' version="1.1.0.1"/>
+		<dependency id='jumplistexplorer' version="0.7.0.1"/>
 		<dependency id='sdbexplorer' version="0.6.0.0"/>
-		<dependency id='lecmd' version="1.1.0.0"/>
+		<dependency id='lecmd' version="1.1.0.1"/>
 		<dependency id='pecmd' version="1.2.0.0"/>
 		<dependency id='registryexplorer' version="1.1.0.61"/>
 		<dependency id='shellbagsexplorer' version="1.1.0.1"/>
