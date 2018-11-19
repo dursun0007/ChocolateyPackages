@@ -4,29 +4,29 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     
-    <id>mftecmd</id>
+    <id>rbcmd</id>
     
-    <version>0.3.1.0</version>
+    <version>0.3.0.0</version>
     <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Eric R. Zimmerman</owners>
     
-    <title>MFTECmd</title>
+    <title>PECmd</title>
     <authors>Eric Zimmerman</authors>
 
     <projectUrl>https://ericzimmerman.github.io/</projectUrl>
-	<iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/mftecmd/mftecmdIcon.png</iconUrl>
-    <copyright>2018 Eric R. Zimmerman</copyright>
+	<iconUrl>https://github.com/EricZimmerman/ChocolateyPackages/blob/master/rbcmd/rbcmdIcon.png</iconUrl>
+    <copyright>2016 Eric R. Zimmerman</copyright>
 
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-    <releaseNotes>https://github.com/EricZimmerman/MFTECmd/releases</releaseNotes>
+    <releaseNotes>https://github.com/EricZimmerman/RBCmd/releases</releaseNotes>
 
-    <projectSourceUrl>https://github.com/EricZimmerman/MFTECmd</projectSourceUrl>
+    <projectSourceUrl>https://github.com/EricZimmerman/RBCmd</projectSourceUrl>
     <docsUrl>https://binaryforay.blogspot.com/</docsUrl>
 
-    <tags>MFT NTFS forensics</tags>
-    <summary>NTFS MFT parser</summary>
-    <description>MFTECmd exports to CSV and allows viewing of full entry details by entry/sequence #s</description>
+    <tags>recycle bin forensics</tags>
+    <summary>Windows Recycle Bin parser</summary>
+    <description>Parses both INFO2 and $I formats</description>
    </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
