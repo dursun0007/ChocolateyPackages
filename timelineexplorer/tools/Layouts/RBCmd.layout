@@ -55,7 +55,7 @@
   <property name="Columns" iskey="true" value="7">
     <property name="Item1" isnull="true" iskey="true">
       <property name="Name">colSourceName</property>
-      <property name="VisibleIndex">5</property>
+      <property name="VisibleIndex">3</property>
       <property name="Visible">true</property>
       <property name="Width">693</property>
       <property name="MinWidth">20</property>
@@ -63,7 +63,7 @@
     </property>
     <property name="Item2" isnull="true" iskey="true">
       <property name="Name">colFileType</property>
-      <property name="VisibleIndex">6</property>
+      <property name="VisibleIndex">4</property>
       <property name="Visible">true</property>
       <property name="Width">109</property>
       <property name="MinWidth">20</property>
@@ -71,7 +71,7 @@
     </property>
     <property name="Item3" isnull="true" iskey="true">
       <property name="Name">colFileName</property>
-      <property name="VisibleIndex">2</property>
+      <property name="VisibleIndex">5</property>
       <property name="Visible">true</property>
       <property name="Width">693</property>
       <property name="MinWidth">20</property>
@@ -79,7 +79,7 @@
     </property>
     <property name="Item4" isnull="true" iskey="true">
       <property name="Name">colFileSize</property>
-      <property name="VisibleIndex">3</property>
+      <property name="VisibleIndex">6</property>
       <property name="Visible">true</property>
       <property name="Width">109</property>
       <property name="MinWidth">20</property>
@@ -87,7 +87,7 @@
     </property>
     <property name="Item5" isnull="true" iskey="true">
       <property name="Name">colDeletedOn</property>
-      <property name="VisibleIndex">4</property>
+      <property name="VisibleIndex">2</property>
       <property name="Visible">true</property>
       <property name="Width">258</property>
       <property name="MinWidth">20</property>
